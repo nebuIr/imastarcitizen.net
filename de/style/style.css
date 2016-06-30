@@ -1,0 +1,170 @@
+body {
+    background-image: url(../images/background/grid.png),url(../images/background/bg.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll,fixed;
+    opacity: .95;
+    font-family: Orbitron, Electrolize, Tahoma,Arial,Helvetica,sans-serif;
+    margin-top: 20px;
+}
+
+a {
+    transition: all .2s ease-in;
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+a:hover {
+    transition: all .2s ease-in;
+    color: #e9e9e9;
+}
+
+a:active {
+    color: #737373;
+}
+
+footer {
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 980px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+}
+
+nav ul li a {
+    left: 150px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+section {
+    width: 0 auto;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#313131+0,121212+100 */
+    background: #313131;
+    background: radial-gradient(ellipse at center,#313131 0%,#121212 100%);
+    padding: 10px;
+}
+
+section h1 {
+    color: #f2f2f2;
+}
+
+section h2 {
+    color: #cacaca;
+}
+
+section p {
+    color: #8a8a8a;
+    font-size: .9em;
+}
+
+li {
+    color: #8a8a8a;
+}
+
+ul {
+    color: #8a8a8a;
+}
+
+#puzzle h2 {
+    margin-left: 13px;
+}
+
+.Button {
+    transition: all .2s ease-in;
+    background: linear-gradient(to bottom,#6d2729 5%,#6b2122 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d2729',endColorstr='#6b2122',GradientType=0);
+    background-color: #6d2729;
+    border-radius: 4px;
+    border: 1px solid #501d1f;
+    display: inline-block;
+    cursor: pointer;
+    color: #86ad9f;
+    font-size: 14px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+    font-weight: 700;
+}
+
+.Button:hover {
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px #8c2c36;
+    background: linear-gradient(to bottom,#6b2122 5%,#6d2729 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b2122',endColorstr='#6d2729',GradientType=0);
+    background-color: #86ad9f;
+    border-radius: 5px;
+    color: #9ddecc;
+}
+
+.Button:active {
+    position: relative;
+    top: 1px;
+}
+
+.shadow {
+    box-shadow: 0 0 50px #000;
+}
+
+.shadow-menu {
+    box-shadow: 0 0 5px #000;
+}
+
+.shadow-cards {
+    transition: all .2s ease-in;
+    box-shadow: 0 0 15px #000;
+    border-radius: 5px;
+    margin: 13px;
+}
+
+.shadow-cards:hover {
+    transition: all .2s ease-in;
+    box-shadow: 0 0 15px #8c2c36;
+    border-radius: 5px;
+    margin: 13px;
+}
+
+.cards_box {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#313131+0,121212+100 */
+  background-image: url("../images/background/bg_cards.jpg");
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  outline: 1px solid #c2c2c2;
+  color: #c2c2c2;
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: 0 0 10px 5px #121212;
+}
+
+.cards_box_horizontal {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#313131+0,121212+100 */
+  background-image: url("../images/background/bg_cards_horizontal.jpg");
+  background-size: 775px 285px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  outline: 1px solid #c2c2c2;
+  color: #c2c2c2;
+  margin-left: 5px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px 5px #121212;
+}
+
+/* <!-- ------------------- Disabled ------------------- -->
+
+/*
+.imastarcitizen-outline {
+    shadow-color: #622E32;
+    text-shadow: -1px -1px 0 #622E32,1px -1px 0 #622E32,-1px 1px 0 #622E32,1px 1px 0 #622E32;
+} */
