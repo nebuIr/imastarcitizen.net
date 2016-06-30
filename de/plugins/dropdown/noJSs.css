@@ -1,0 +1,8 @@
+.wrapper-dropdown:focus .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper-dropdown:focus:after {
+    border-width: 0 6px 6px;
+}
