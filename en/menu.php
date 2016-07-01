@@ -15,16 +15,13 @@
                 <a href="../index.php?section=home"><span>Home</span></a>
             </li>
             <li>
-                <a href="../index.php?section=card_archives"><span>Card
-                Archives</span></a>
+                <a href="../index.php?section=card_archives"><span>Card Archives</span></a>
             </li>
             <li>
-                <a href="../index.php?section=cardbackpuzzle"><span>Card Back
-                Puzzle</span></a>
+                <a href="../index.php?section=cardbackpuzzle"><span>Card Back Puzzle</span></a>
             </li>
             <li>
-                <a href=
-                "../index.php?section=downloads"><span>Downloads</span></a>
+                <a href="../index.php?section=downloads"><span>Downloads</span></a>
             </li>
         </ul>
     </div>

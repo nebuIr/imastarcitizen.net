@@ -53,6 +53,10 @@
             include ("pages/downloads.php");
             break;
             
+        case "feedback":
+            include ("pages/feedback.php");
+            break;
+            
         case "400":
             include ("pages/errorpages/400.php");
             break;

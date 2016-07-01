@@ -109,7 +109,7 @@
                 <p class="footer-links"><a href="../index.php?section=card_archives">Card Archives</a> - <a href="../index.php?section=downloads">Downloads</a> - <a href="http://robertspaceindustries.com">RSI Homepage</a> - <a href="http://instagram.com/robertsspaceind">RSI Instagram</a></p>
                 <p>This website was created by <img src="../images/misc/pp_16.jpg"><b><a href="https://forums.robertsspaceindustries.com/profile/254923/nebulr"> nebulr</a></b>
                     <br>
-                    <br> Feel free to <a href="mailto:support@imastarcitizen.net"><b>send</b></a> any
+                    <br> Feel free to <a href="../index.php?section=feedback"><b>send</b></a> any
                     <b>bug reports</b> or <b>suggestions</b></p>
                 <br>
                 <a href="http://referral.imastarcitizen.net"><font size="2">Click
