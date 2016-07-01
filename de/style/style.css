@@ -108,6 +108,114 @@ ul {
     top: 1px;
 }
 
+#locale {
+    position: absolute;
+    margin-left: 945px;
+    margin-top: -205px;
+}
+
+#feedback-form {
+    padding-left: 20px;
+}
+
+#submit-feedback-button {
+    transition: all .2s ease-in;
+    background: linear-gradient(to bottom,#6d2729 5%,#6b2122 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d2729',endColorstr='#6b2122',GradientType=0);
+    background-color: #6d2729;
+    border-radius: 4px;
+    border: 1px solid #501d1f;
+    display: inline-block;
+    cursor: pointer;
+    color: #86ad9f;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+    font-weight: 700;
+}
+
+#submit-feedback-button:hover {
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px #8c2c36;
+    background: linear-gradient(to bottom,#6b2122 5%,#6d2729 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b2122',endColorstr='#6d2729',GradientType=0);
+    background-color: #86ad9f;
+    border-radius: 5px;
+    color: #9ddecc;
+}
+
+#submit-feedback-button:active {
+    position: relative;
+    top: 1px;
+}
+
+#email {
+    font-family: Orbitron;
+    transition: all .2s ease-in;
+    background-color: #E1E1E1;
+    border-radius: 4px;
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+#email:hover {
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px #8c2c36;
+    border-radius: 5px;
+}
+
+#subject {
+    font-family: Orbitron;
+    transition: all .2s ease-in;
+    background-color: #E1E1E1;
+    border-radius: 4px;
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+#subject:hover {
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px #8c2c36;
+    border-radius: 5px;
+}
+
+#message {
+    font-family: Orbitron;
+    transition: all .2s ease-in;
+    background-color: #E1E1E1;
+    border-radius: 4px;
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+#message:hover {
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px #8c2c36;
+    border-radius: 5px;
+}
+
 .shadow {
     box-shadow: 0 0 50px #000;
 }
