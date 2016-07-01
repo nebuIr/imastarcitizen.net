@@ -109,7 +109,7 @@
                 <p class="footer-links"><a href="../index.php?section=card_archives">Kartenarchiv</a> - <a href="../index.php?section=downloads">Downloads</a> - <a href="http://robertspaceindustries.com">RSI Startseite</a> - <a href="http://instagram.com/robertsspaceind">RSI Instagram</a></p>
                 <p>Diese Website wurde von <img src="../images/misc/pp_16.jpg"><b><a href="https://forums.robertsspaceindustries.com/profile/254923/nebulr"> nebulr</a></b> erstellt
                     <br>
-                    <br>Bitte <a href="mailto:support@imastarcitizen.net"><b>sende</b></a> mir deine
+                    <br>Bitte <a href="../index.php?section=feedback"><b>sende</b></a> mir deine
                     <b>Vorschläge</b> oder <b>Fehler</b>, falls du welche findest</p>
                 <br>
                 <a href="http://referral.imastarcitizen.net"><font size="2">Klicke hier um ein Star Citizen zu werden!</font></a>

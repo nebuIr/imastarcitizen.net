@@ -21,8 +21,7 @@
                 <a href="../index.php?section=cardbackpuzzle"><span>Rückseiten-Puzzle</span></a>
             </li>
             <li>
-                <a href=
-                "../index.php?section=downloads"><span>Downloads</span></a>
+                <a href="../index.php?section=downloads"><span>Downloads</span></a>
             </li>
         </ul>
     </div>
