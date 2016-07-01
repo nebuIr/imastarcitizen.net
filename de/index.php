@@ -72,6 +72,7 @@
 
             <header>
                 <a href="index.php?section=home"><img id="header" height="205px" src="../images/header/header_bg.jpg" width="980px"></a>
+                <a href="http://en.imastarcitizen.net" id="locale" title="English"><img src="../images/misc/en.png" width="30px"></a>
             </header>
 
             <!-- ------------------- NAVBAR ------------------- -->
