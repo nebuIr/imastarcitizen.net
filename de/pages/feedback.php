@@ -12,7 +12,7 @@
         // Das Kontaktformular
         $formular = "<form id=\"feedback-form\" action=\"".$SERVER[PHP_SELF]."\" method=\"post\"><p>".
                  "<label for=\"email\">Email: </label><br>".
-                 "<input type=\"text\" name=\"email\" id=\"email\" size=\"50\" value=\"".
+                 "<input type=\"email\" name=\"email\" id=\"email\" size=\"50\" value=\"".
                  $email."\"><br><br>".
                  "<label for=\"subject\">Titel: </label><br>".
                  "<input type=\"text\" name=\"subject\" id=\"subject\" size=\"50\"".
@@ -30,12 +30,9 @@
         $subject = $_POST['subject'];
         $message = $_POST['message'];
 
-        // Domain der eingegebenen Email-Adresse wird für Existenzprüfung ermittelt
-        $check_email = list($host_user, $host_name) = split("@", $email);
-
         // Wenn eines der Formular-felder leer ist, dann gib Fehlermeldung aus
         if($email == "" || $subject == "" || $message == ""){
-            echo "<p>Bitte fülle die fehlenden Felder aus!</p>";
+            echo "<p id=\"form_missing\">Bitte fülle die fehlenden Felder aus!</p>";
             echo $formular;
         }else{
 
