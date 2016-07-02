@@ -32,7 +32,7 @@
 
         // Wenn eines der Formular-felder leer ist, dann gib Fehlermeldung aus
         if($email == "" || $subject == "" || $message == ""){
-            echo "<p>Please fill in the missing field!</p>";
+            echo "<p id=\"form_missing\">Please fill in the missing fields!</p>";
             echo $formular;
         }else{
 
