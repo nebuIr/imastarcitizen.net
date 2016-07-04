@@ -4,52 +4,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="../style/style.css" rel="stylesheet" type="text/css">
-    <link href="plugins/fancybox/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
     <link href="../style/css/footer.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
-    <script src="plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <title>#imastarcitizen</title>
-    <style type="text/css">
-        /*<![CDATA[*/
-        
-        body {
-            background: url(../images/background/grid.png), url(images/background/<?php echo $selectedBg; ?>);
-            background-repeat: repeat;
-            background-attachment: scroll, fixed
-        }
-        /*]]>*/
-    </style>
+    <script>
+        (function (d, e, j, h, f, c, b) {
+            d.GoogleAnalyticsObject = f;
+            d[f] = d[f] || function () {
+                (d[f].q = d[f].q || []).push(arguments)
+            }, d[f].l = 1 * new Date();
+            c = e.createElement(j), b = e.getElementsByTagName(j)[0];
+            c.async = 1;
+            c.src = h;
+            b.parentNode.insertBefore(c, b)
+        })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+        ga("create", "UA-68526906-1", "auto");
+        ga("send", "pageview");
+    </script>
     <?php
         $bg = array('bg_security.jpg', 'bg_planet.jpg', 'bg_cubby_blast.jpg', 'bg_cafe.jpg', 'bg_cordrys.jpg' ); // array of filenames
+
         $i = rand(0, count($bg)-1); // generate random number size of the array
         $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
     ?>
-        <script>
-            $(document).ready(function () {
-                $(".fancybox").fancybox({
-                    padding: 0,
-                    openEffect: "elastic"
-                })
-            });
-        </script>
-        <script>
-            (function (d, e, j, h, f, c, b) {
-                d.GoogleAnalyticsObject = f;
-                d[f] = d[f] || function () {
-                    (d[f].q = d[f].q || []).push(arguments)
-                }, d[f].l = 1 * new Date();
-                c = e.createElement(j), b = e.getElementsByTagName(j)[0];
-                c.async = 1;
-                c.src = h;
-                b.parentNode.insertBefore(c, b)
-            })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
-            ga("create", "UA-68526906-1", "auto");
-            ga("send", "pageview");
-        </script>
+        <style type="text/css">
+            /*<![CDATA[*/
+            
+            body {
+                background: url(../images/background/grid.png), url(images/background/<?php echo $selectedBg; ?>);
+                background-repeat: repeat;
+                background-attachment: scroll, fixed
+            }
+            /*]]>*/
+        </style>
         <?php
+
         if(isset($_GET["section"]))
             
         {
@@ -59,7 +48,21 @@
         {
             $section = "";
         }
+
     ?>
+            <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+            <title>#imastarcitizen</title>
+            <script>
+                $(document).ready(function () {
+                    $(".fancybox").fancybox({
+                        padding: 0,
+                        openEffect: "elastic"
+                    })
+                });
+            </script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+            <link href="plugins/fancybox/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css">
+            <script src="plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 </head>
 
 <!-- ------------------- BODY ------------------- -->
