@@ -24,7 +24,24 @@
         ga('create', 'UA-68526906-1', 'auto');
         ga('send', 'pageview');
     </script>
+   
+    <?php
+        $bg = array('bg_security.jpg', 'bg_planet.jpg', 'bg_cubby_blast.jpg', 'bg_cafe.jpg', 'bg_cordrys.jpg' ); // array of filenames
 
+        $i = rand(0, count($bg)-1); // generate random number size of the array
+        $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+    ?>
+    
+    <style type="text/css">
+        
+        body{
+            background: url(../images/background/grid.png),url(images/background/<?php echo $selectedBg; ?>);
+            background-repeat: repeat;
+            background-attachment: scroll,fixed;
+        }
+        
+    </style>
+    
     <?php
 
         if(isset($_GET["section"]))
