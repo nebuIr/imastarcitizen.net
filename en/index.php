@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <meta name="description" content="#imastarcitizen - All official Star Citizen trading cards">
     <link href="../style/style.css" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
     <link href="../style/css/footer.css" rel="stylesheet">
