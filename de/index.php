@@ -119,7 +119,7 @@
                 <p>Diese Website wurde von <img src="../images/misc/pp_16.jpg"><b><a href="https://forums.robertsspaceindustries.com/profile/254923/nebulr"> nebulr</a></b> erstellt
                     <br>
                     <br>Bitte <a href="../index.php?section=feedback"><b>sende</b></a> mir deine
-                    <b>Vorschläge</b> oder <b>Fehler</b>, falls du welche findest</p>
+                    <b>Feedback</b> oder <b>Fehler</b>, falls du welche findest</p>
                 <br>
                 <a href="http://referral.imastarcitizen.net"><font size="2">Klicke hier um ein Star Citizen zu werden!</font></a>
                 <br>
