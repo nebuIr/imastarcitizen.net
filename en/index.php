@@ -123,7 +123,7 @@
                 <br>
                 <a href="http://referral.imastarcitizen.net"><font size="2">Click
             here to become a Star Citizen today!</font></a>
-                <br>
+                <br><br>
                 <a href="http://de.imastarcitizen.net" title="Deutsch"><img src="../images/misc/de.png" width="30px"></a>
                 <br>
             </div>
