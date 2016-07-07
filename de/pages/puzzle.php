@@ -29,7 +29,7 @@
         <br>
         <br>
 			
-        <a href="#top">Back to top</a>
+        <a id="button" href="#top">Zurück nach oben</a>
     </div>
 </body>
 </html>
