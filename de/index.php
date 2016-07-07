@@ -122,7 +122,7 @@
                     <b>Feedback</b> oder <b>Fehler</b>, falls du welche findest</p>
                 <br>
                 <a href="http://referral.imastarcitizen.net"><font size="2">Klicke hier um ein Star Citizen zu werden!</font></a>
-                <br>
+                <br><br>
                 <a href="http://en.imastarcitizen.net" title="English"><img src="../images/misc/en.png" width="30px"></a>
                 <br>
             </div>
