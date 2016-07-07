@@ -68,6 +68,8 @@
 @media (max-width: 600px) {
     .footer-distributed .footer-left,.footer-distributed .footer-right {
         text-align: center;
+        background-color: #121212;
+        margin-bottom: 10px;
     }
 
     .footer-distributed .footer-right {
