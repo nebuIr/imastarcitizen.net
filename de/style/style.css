@@ -4,7 +4,7 @@ body {
     background-attachment: scroll,fixed;
     opacity: .95;
     font-family: Orbitron, Electrolize, Tahoma,Arial,Helvetica,sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 a {
@@ -41,6 +41,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 980px;
+    max-width: 100%
 }
 
 section {
@@ -72,11 +73,16 @@ ul {
     color: #8a8a8a;
 }
 
+img {
+    max-width: 100%;
+    height: auto
+}
+
 #puzzle h2 {
     margin-left: 13px;
 }
 
-.Button {
+#button {
     transition: all .2s ease-in;
     background: linear-gradient(to bottom,#6d2729 5%,#6b2122 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d2729',endColorstr='#6b2122',GradientType=0);
@@ -93,7 +99,7 @@ ul {
     font-weight: 700;
 }
 
-.Button:hover {
+#button:hover {
     transition: all .2s ease-out;
     box-shadow: 0 0 15px #8c2c36;
     background: linear-gradient(to bottom,#6b2122 5%,#6d2729 100%);
@@ -103,7 +109,7 @@ ul {
     color: #9ddecc;
 }
 
-.Button:active {
+#button:active {
     position: relative;
     top: 1px;
 }
@@ -272,6 +278,26 @@ ul {
   margin-left: 5px;
   margin-top: 10px;
   box-shadow: 0 0 10px 5px #121212;
+}
+
+#header {
+    max-width: 100%;
+    height: auto
+}
+
+#downloads {
+    float: right;
+    margin-right: 20px
+}
+
+@media screen and (max-width:768px) {
+    #downloads {
+        float: left;
+        padding: 37px
+    }
+    p {
+        line-height: 1.8
+    }
 }
 
 /* <!-- ------------------- Disabled ------------------- -->
