@@ -247,6 +247,8 @@ img {
     box-shadow: 0 0 15px #8c2c36;
     border-radius: 5px;
     margin: 13px;
+    max-width: 90%;
+    height: auto
 }
 
 .cards_box {
