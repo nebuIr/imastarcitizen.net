@@ -8,7 +8,7 @@
 
 #cssmenu ul {
     list-style: none;
-    margin-left: 45px;
+    margin-left: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0;
@@ -106,6 +106,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  #cssmenu ul {  
+    margin-left: -70px
+  }
   #cssmenu ul li {
     float: none;
     display: block;
@@ -120,9 +123,6 @@
     border: 0;
   }
   #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
     display: none;
   }
 }
