@@ -14,7 +14,7 @@
             <br>
             <br> Ich werde die Sammelkarten aktualisieren, sobald neue hinzugefügt wurden :)</p>
     </div>
-    <a href="index.php?section=card_archive"><img id="card_archive" class="img_opac" src="../images/preview/card_archive.png" style="width: 100%;"></a>
+    <a href="index.php?section=card_archives"><img id="card_archive" class="img_opac" src="../images/preview/card_archive.png" style="width: 100%;"></a>
 </body>
 
 </html>
