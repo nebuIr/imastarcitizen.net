@@ -64,4 +64,4 @@
 
 </div>
 			
-    <a href="#top">Back to top</a>
+    <a id="button" href="#top">Back to top</a>
