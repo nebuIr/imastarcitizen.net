@@ -23,7 +23,7 @@
         ga("send", "pageview");
     </script>
     <?php
-        $bg = array('bg_security.jpg', 'bg_planet.jpg', 'bg_cubby_blast.jpg', 'bg_cafe.jpg', 'bg_cordrys.jpg' ); // array of filenames
+        $bg = array('bg_security.jpg', 'bg_planet.jpg', 'bg_cubby_blast.jpg', 'bg_cafe.jpg', 'bg_cordrys.jpg', 'bg_dragonfly.jpg', 'bg_grimHex1.jpg', 'bg_grimHex2.jpg', 'bg_grimHex3.jpg', 'bg_levski.jpg' ); // array of filenames
 
         $i = rand(0, count($bg)-1); // generate random number size of the array
         $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
