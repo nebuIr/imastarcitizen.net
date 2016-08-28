@@ -7,6 +7,13 @@ I created this website mostly for testing purposes and for learning HTML, CSS an
 Therfore the structure and coding might not be perfect.
 I'm already working a long time on this project, so I thought I will use GitHub for my work from now on. It makes it a lot easier for me.
 
+## v.1.2.0
+### Notable Changes
+
+* Completely new design, oriented to RSI site
+* Removed not needed files
+* Added Sitemap.xml
+
 ## v.1.1.0
 ### Notable Changes
 
