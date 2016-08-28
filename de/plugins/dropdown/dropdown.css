@@ -1,88 +1,54 @@
-@import  font-awesome.css;
-
-/* GLOBALS */
-*,:after,:before {
+@import font-awesome.css;
+*,
+:after,
+:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0
 }
 
 ::selection {
-    background: transparent;
+    background: transparent
 }
 
 ::-moz-selection {
-    background: transparent;
+    background: transparent
 }
 
 .wrapper-down {
     margin: 60px 0 0;
     zoom: 1;
-    font-weight: 400;
+    font-weight: 400
 }
 
 .wrapper-down:after {
     clear: both;
     content: "";
-    display: table;
+    display: table
 }
 
-/* DROPDOWN */
 .wrapper-dropdown {
-/* Size and position */
+    transition: all .2s ease-out;
     position: relative;
-/* Enable absolute positionning for children and pseudo elements */
-    width: 205px;
+    width: 200px;
     margin: 0 auto;
     padding: 10px 15px;
-/* Styles */
-    color: #86ad9f;
-/* background: #959595; */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#727272+0,7b7b7b+33,535353+100 */
-    background: #6d2729;
-/* Old browsers */
-    background: -moz-linear-gradient(top,#6d2729 0%,#6b2122 33%,#501d1f 100%);
-/* FF3.6+ */
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#6d2729),color-stop(33%,#6b2122),color-stop(100%,#501d1f));
-/* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,#6d2729 0%,#6b2122 33%,#501d1f 100%);
-/* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,#6d2729 0%,#6b2122 33%,#501d1f 100%);
-/* Opera 11.10+ */
-    background: -ms-linear-gradient(top,#6d2729 0%,#6b2122 33%,#501d1f 100%);
-/* IE10+ */
-    background: linear-gradient(to bottom,#6d2729 0%,#6b2122 33%,#501d1f 100%);
-/* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d2729',endColorstr='#501d1f',GradientType=0);
-/* IE6-9 */
-    border-left: 5px solid grey;
-    border-left-color: #8f2c30;
+    color: #3fc9e1;
+    background-color: rgba(22, 104, 159, 0.2);
+    border: 1px solid rgba(12, 103, 161, 0.6);
+    border-radius: 3px;
     cursor: pointer;
-    outline: none;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    -webkit-box-shadow: 0 0 15px #121212;
-    -moz-box-shadow: 0 0 15px #121212;
-    box-shadow: 0 0 15px #121212;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    outline: 0;
+    border-radius: 2px
 }
 
 .wrapper-dropdown:hover {
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    -webkit-box-shadow: 0 0 15px #8c2c36;
-    -moz-box-shadow: 0 0 15px #8c2c36;
-    box-shadow: 0 0 15px #8c2c36;
+    transition: all .2s ease-out;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
+    border: 1px solid rgba(12, 103, 161, 0.6)
 }
 
 .wrapper-dropdown:after {
@@ -95,134 +61,121 @@
     margin-top: -3px;
     border-width: 6px 6px 0;
     border-style: solid;
-    border-color: #ab2d39 transparent;
+    border-color: #0c67a1 transparent
 }
 
 .wrapper-dropdown .dropdown {
-/* Size & position */
+    transition: all .2s ease-out;
     position: absolute;
     top: 100%;
     left: -5px;
     right: 0;
-/* Styles */
-    background: #501d1f;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -ms-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out;
-    transition: all .3s ease-out;
+    background-color: #07283d;
+    border: 1px solid rgba(12, 103, 161, 0.6);
     list-style: none;
-/* Hiding */
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none
 }
 
 .wrapper-dropdown .dropdown li a {
+    transition: all .2s ease-out;
     display: block;
     text-decoration: none;
-    color: #86ad9f;
+    color: #3fc9e1;
     border-left: 5px solid;
-    padding: 10px;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -ms-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out;
-    transition: all .3s ease-out;
+    padding: 10px
 }
 
 .wrapper-dropdown .dropdown li:nth-child(1) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(2) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(3) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(4) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(5) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(6) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(7) a {
-    border-left-color: #6d2729;
+    border-left-color: #3fc9e1
 }
 
 .wrapper-dropdown .dropdown li:nth-child(1) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(2) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(3) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(4) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(5) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(6) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li:nth-child(7) a:hover {
-    border-left-color: #9a2a2d;
-    background: #702225;
+    border-left-color: #c3f2ff;
+    background-color: #051e2e
 }
 
 .wrapper-dropdown .dropdown li i {
     margin-right: 5px;
     color: inherit;
-    vertical-align: middle;
+    vertical-align: middle
 }
 
-/* Hover state */
 .wrapper-dropdown .dropdown li:hover a {
-    color: #9ddecc;
+    color: #c3f2ff
 }
 
-/* Active state */
 .wrapper-dropdown.active:after {
-    border-width: 0 6px 6px;
+    border-width: 0 6px 6px
 }
 
 .wrapper-dropdown.active .dropdown {
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: auto
 }
 
-/* No CSS3 support */
-.no-opacity .wrapper-dropdown .dropdown,.no-pointerevents .wrapper-dropdown .dropdown {
+.no-opacity .wrapper-dropdown .dropdown,
+.no-pointerevents .wrapper-dropdown .dropdown {
     display: none;
     opacity: 1;
-/* If opacity support but no pointer-events support */
-    pointer-events: auto;
-/* If pointer-events support but no pointer-events support */
+    pointer-events: auto
 }
 
-.no-opacity .wrapper-dropdown.active .dropdown,.no-pointerevents .wrapper-dropdown.active .dropdown {
-    display: block;
+.no-opacity .wrapper-dropdown.active .dropdown,
+.no-pointerevents .wrapper-dropdown.active .dropdown {
+    display: block
 }
