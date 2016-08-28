@@ -8,20 +8,6 @@
     <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
     <link href="../style/css/footer.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <script>
-        (function (d, e, j, h, f, c, b) {
-            d.GoogleAnalyticsObject = f;
-            d[f] = d[f] || function () {
-                (d[f].q = d[f].q || []).push(arguments)
-            }, d[f].l = 1 * new Date();
-            c = e.createElement(j), b = e.getElementsByTagName(j)[0];
-            c.async = 1;
-            c.src = h;
-            b.parentNode.insertBefore(c, b)
-        })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
-        ga("create", "UA-68526906-1", "auto");
-        ga("send", "pageview");
-    </script>
     <?php
 
         if(isset($_GET["section"]))
