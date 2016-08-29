@@ -8,6 +8,7 @@
     <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
     <link href="../style/css/footer.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <?php
 
         if(isset($_GET["section"]))

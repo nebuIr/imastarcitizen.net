@@ -27,7 +27,7 @@
         $message = $_POST['message'];
 
         if($email == "" || $subject == "" || $message == ""){
-            echo "<p id=\"form_missing\">Please fill in the missing fields!</p>";
+            echo "<p id=\"message_failed\">Please fill in the missing fields!</p>";
         }else{
         $secret = 'reCAPTCHA_secret_key';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
@@ -35,9 +35,6 @@
         }
             
         if($responseData->success){
-            
-            $datum = date("d.m.Y");
-            $uhrzeit = date("H:i");
 
             $support_mail = "support@imastarcitizen.net";
 
@@ -49,14 +46,12 @@
             ";
             $headers = "MIME-Version: 1.0" . "\r\n";
             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-            $mailheader = "From: ".$from." $email\r\n";
+            $headers .= 'From:'.$email."\r\n";
 
-            $mail = mail($support_mail, $subject, $text, $mailheader);
-
-        }
-
+            $mail = mail($support_mail, $subject, $htmlContent, $headers);
+            echo "<p id=\"message_success\">Mail was successfully sent!</p>";
         }else{
-
+            echo "<p id=\"message_failed\">reCAPTCHA verification failed, please try again.</p>";}
         }
     ?>
 </body>
