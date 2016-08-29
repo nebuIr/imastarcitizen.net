@@ -37,7 +37,6 @@
 </head>
 
 <body>
-    <?php include_once("analyticstracking.php") ?>
         <main class="shadow">
             <header>
                 <a href="index.php?section=home"><img id="header" height="205px" src="../images/header/header_bg.jpg" width="980px"></a>
