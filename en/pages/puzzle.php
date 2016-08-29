@@ -26,9 +26,6 @@
             <a class=fancybox href=../images/puzzle/puzzle_full_res/idris/idris.png rel=cardbackpuzzle><img class=shadow-cards height=662 id="idris puzzle" src=../images/puzzle/puzzle_small/idris/idris.png width=931></a>
         </div>
         <br>
-        <br>
-        <br>
-        <a id=button href=#top>Back to top</a>
     </div>
 </body>
 

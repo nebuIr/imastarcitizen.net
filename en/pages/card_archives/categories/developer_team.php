@@ -42,5 +42,3 @@
             <a class="fancybox" rel="cards" href="../images/cards/cards_full_res/1-100/44/44b.jpg"><img class="shadow-cards" src="../images/cards/cards_small/1-100/44/44b.jpg" id="No. 44b" width="210" height="295" /></a>
         </div>
         </br>
-        <br>
-        <a id=button href=#top>Back to top</a>

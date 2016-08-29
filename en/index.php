@@ -22,6 +22,7 @@
 
     ?>
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="js/back_to_top.js"></script>
         <title>#imastarcitizen</title>
         <script>
             $(document).ready(function () {
@@ -47,6 +48,7 @@
         </nav>
         <section>
             <?php include('pages/sections/sites.php'); ?>
+            <a href="#0" class="back_to_top">Top</a>
         </section>
     </main>
     <footer class="footer-distributed">
