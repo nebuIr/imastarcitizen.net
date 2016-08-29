@@ -5,9 +5,11 @@
 <link rel="stylesheet" href="style/css/navstyles.css">
 <script src="script.js"></script>
 <html>
+
 <head>
     <title></title>
 </head>
+
 <body>
     <div id='cssmenu'>
         <ul>
@@ -26,4 +28,5 @@
         </ul>
     </div>
 </body>
+
 </html>
