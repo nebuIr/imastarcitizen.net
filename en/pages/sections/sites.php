@@ -87,7 +87,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+<title></title>
 </head>
 <body>
 </body>

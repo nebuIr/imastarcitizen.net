@@ -7,6 +7,14 @@ I created this website mostly for testing purposes and for learning HTML, CSS an
 Therfore the structure and coding might not be perfect.
 I'm already working a long time on this project, so I thought I will use GitHub for my work from now on. It makes it a lot easier for me.
 
+## v.1.2.1
+### Notable Changes
+
+* Navbar now responsive and correctly aligned
+* New 'back to top' button
+* Improved formatting, removed not needed files
+* Error fixed
+
 ## v.1.2.0
 ### Notable Changes
 
