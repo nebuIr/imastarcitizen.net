@@ -17,7 +17,7 @@
         <br>
         <div class="g-recaptcha" data-sitekey="reCAPTCHA_site_key"></div>
         <br>
-        <input type="submit" name="submit" value="SENDEN" id="submit-feedback-button">
+        <input type="submit" name="submit" value="SUBMIT" id="submit-feedback-button">
         <?php
 
         if(isset($_POST['submit'])){
@@ -27,7 +27,7 @@
         $message = $_POST['message'];
 
         if($email == "" || $subject == "" || $message == ""){
-            echo "<p id=\"form_missing\">Bitte fülle die fehlenden Felder aus!</p>";
+            echo "<p id=\"message_failed\">Bitte fülle die fehlenden Felder aus!</p>";
         }else{
         $secret = 'reCAPTCHA_secret_key';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
@@ -35,9 +35,6 @@
         }
             
         if($responseData->success){
-            
-            $datum = date("d.m.Y");
-            $uhrzeit = date("H:i");
 
             $support_mail = "support@imastarcitizen.net";
 
@@ -49,14 +46,12 @@
             ";
             $headers = "MIME-Version: 1.0" . "\r\n";
             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-            $mailheader = "From: ".$from." $email\r\n";
+            $headers .= 'From:'.$email."\r\n";
 
-            $mail = mail($support_mail, $subject, $text, $mailheader);
-
-        }
-
+            $mail = mail($support_mail, $subject, $htmlContent, $headers);
+            echo "<p id=\"message_success\">Mail wurde erfolgreich gesendet!</p>";
         }else{
-
+            echo "<p id=\"message_failed\">Verifikation fehlgeschlagen, bitte erneut versuchen.</p>";}
         }
     ?>
 </body>
