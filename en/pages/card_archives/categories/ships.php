@@ -50,5 +50,3 @@
             <a class="fancybox" rel="cards" href="../images/cards/cards_full_res/1-100/70/70b.jpg"><img class="shadow-cards" src="../images/cards/cards_small/1-100/70/70b.jpg" id="No. 70b" width="360" height="256" /></a>
         </div>
         </br>
-        <br>
-        <a id=button href=#top>Back to top</a>
