@@ -4,18 +4,21 @@
 </head>
 
 <body>
-    <?php
-        $formular = "<form id=\"feedback-form\" action=\"".$SERVER[PHP_SELF]."\" method=\"post\"><p>".
-                 "<label for=\"email\">email: </label><br>".
-                 "<input type=\"email\" name=\"email\" id=\"email\" size=\"50\" value=\"".
-                 $email."\"><br><br>".
-                 "<label for=\"subject\">subject: </label><br>".
-                 "<input type=\"text\" name=\"subject\" id=\"subject\" size=\"50\"".
-                 " value=\"".$subject."\"><br><br>".
-                 "<label for=\"message\">message:</label><br>".
-                 "<textarea id=\"message\" name=\"message\" rows=\"7\" cols=\"45\">".
-                 $message."</textarea><br><br>"."<input id=\"submit-feedback-button\" type=\"submit\" name=\"submit\" value=\"submit!\"><br>".
-                 "</p></form>";
+    <form action="" method="POST" id="feedback-form">
+        <p>Email:</p>
+        <input type="email" name="email" value="" id="email" />
+        <br>
+        <p>Subject:</p>
+        <input type="text" name="subject" value="" id="subject" />
+        <br>
+        <p>Message:</p>
+        <textarea type="text" name="message" id="message"></textarea>
+        <br>
+        <br>
+        <div class="g-recaptcha" data-sitekey="reCAPTCHA_site_key"></div>
+        <br>
+        <input type="submit" name="submit" value="SUBMIT" id="submit-feedback-button">
+        <?php
 
         if(isset($_POST['submit'])){
 
@@ -25,29 +28,35 @@
 
         if($email == "" || $subject == "" || $message == ""){
             echo "<p id=\"form_missing\">Please fill in the missing fields!</p>";
-            echo $formular;
         }else{
+        $secret = 'reCAPTCHA_secret_key';
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+        }
+            
+        if($responseData->success){
+            
+            $datum = date("d.m.Y");
+            $uhrzeit = date("H:i");
 
-          $datum = date("d.m.Y");
-          $uhrzeit = date("H:i");
+            $support_mail = "support@imastarcitizen.net";
 
-          $support_mail = "support@imastarcitizen.net";
+            $htmlContent = "
+                <h1>Contact request details</h1>
+                <p><b>Email: </b>".$email."</p>
+                <p><b>Subject: </b>".$subject."</p>
+                <p><b>Message: </b>".$message."</p>
+            ";
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $mailheader = "From: ".$from." $email\r\n";
 
-          $text = "".$email." wrote you on ".$datum." at ".$uhrzeit.":\r\n\r\n".$message;
-          $mailheader = "From: ".$from." <feedback@imastarcitizen.net>\r\n";
-
-          $mail = mail($support_mail, $subject, $text, $mailheader);
-
-        if($mail == true){
-            echo "<p>Mail was successfully sent!</p>";
-        }else{
-            echo "<p>Mail could not be sent!</p>";
-            }
+            $mail = mail($support_mail, $subject, $text, $mailheader);
 
         }
 
         }else{
-            echo $formular;
+
         }
     ?>
 </body>
