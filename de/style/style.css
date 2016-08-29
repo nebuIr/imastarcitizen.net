@@ -106,9 +106,12 @@ img {
     top: 1px
 }
 
-#form_missing {
+#message_failed {
     color: darkred;
-    padding-left: 20px
+}
+
+#message_success {
+    color: green;
 }
 
 #locale {
