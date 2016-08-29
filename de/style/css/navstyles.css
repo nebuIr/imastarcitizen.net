@@ -1,5 +1,9 @@
 @import http: //fonts.googleapis.com/css?family=Open+Sans:700;
 #cssmenu {
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 11, 24, 0.9);
     background: -moz-linear-gradient(left, rgba(0, 11, 24, 0) 0, rgba(0, 11, 24, 0.5) 5%, rgba(0, 11, 24, 0.8) 12%, rgba(0, 11, 24, 0.8) 50%, rgba(0, 11, 24, 0.8) 88%, rgba(0, 11, 24, 0.5) 95%, rgba(0, 11, 24, 0) 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 11, 24, 0)), color-stop(5%, rgba(0, 11, 24, 0.5)), color-stop(12%, rgba(0, 11, 24, 0.8)), color-stop(50%, rgba(0, 11, 24, 0.8)), color-stop(88%, rgba(0, 11, 24, 0.8)), color-stop(95%, rgba(0, 11, 24, 0.5)), color-stop(100%, rgba(0, 11, 24, 0)));
@@ -22,7 +26,6 @@
 
 #cssmenu ul {
     list-style: none;
-    margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -31,30 +34,15 @@
     zoom: 1
 }
 
-#cssmenu ul:after {
-    content: " ";
-    display: block;
-    font-size: 0;
-    height: 0;
-    clear: both;
-    visibility: hidden
-}
-
 #cssmenu ul li {
     display: inline-block;
     padding: 0;
     margin: 0
 }
 
-#cssmenu.align-right ul li {
-    float: right
-}
-
-#cssmenu.align-center ul {
-    text-align: center
-}
-
 #cssmenu ul li a {
+    border-bottom: 3px solid transparent;
+    text-align: center;
     color: #3fc9e1;
     text-decoration: none;
     display: block;
@@ -63,70 +51,25 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
-    transition: color .25s
+    transition: .25s
 }
 
 #cssmenu ul li a:hover {
+    border-bottom-color: rgb(12, 200, 255);
     color: #c3f2ff
 }
 
-#cssmenu ul li a:hover:before {
-    width: 100%
-}
-
-#cssmenu ul li a:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 0;
-    background: #3fc9e1;
-    transition: width .25s
-}
-
-#cssmenu ul li.last>a:after,
-#cssmenu ul li:last-child>a:after {
-    display: none
-}
-
-#cssmenu ul li.active a {
-    color: #8d2d36
-}
-
-#cssmenu ul li.active a:before {
-    width: 100%
-}
-
-#cssmenu.align-right li.last>a:after,
-#cssmenu.align-right li:last-child>a:after {
-    display: block
-}
-
-#cssmenu.align-right li:first-child a:after {
-    display: none
-}
-
 @media screen and (max-width:768px) {
-    #cssmenu ul {
-        margin-left: -70px
-    }
     #cssmenu ul li {
-        float: none;
-        display: block
+        display: block;
     }
     #cssmenu ul li a {
-        width: 200px;
         box-sizing: border-box;
-        border-bottom: 1px solid #0c67a1
+        border-bottom: 1px solid transparent;
+        border-bottom-color: rgb(12, 200, 255);
     }
-    #cssmenu ul li.last>a,
-    #cssmenu ul li:last-child>a {
-        border: 0
-    }
-    #cssmenu ul li a:after {
-        display: none
+    #cssmenu ul li a:hover {
+        border-bottom: 3px solid transparent;
+        border-bottom-color: rgb(12, 200, 255);
     }
 }
