@@ -24,7 +24,7 @@
 
     ?>
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="js/back_to_top.js"></script>
+        <script src="style/js/back_to_top.js"></script>
         <title>#imastarcitizen</title>
         <script>
             $(document).ready(function () {
