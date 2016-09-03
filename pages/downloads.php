@@ -17,7 +17,7 @@
         <ul>
             <li>18 - Randy Vazquez</li>
         </ul> -->
-    </div><img height="512" width="680" src="../images/preview/cards_download_preview_small.png">
+    </div><img height="512" width="680" src="../images/preview/cards_download_preview.png">
 </body>
 
 </html>
