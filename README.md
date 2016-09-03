@@ -7,6 +7,14 @@ I created this website mostly for testing purposes and for learning HTML, CSS an
 Therfore the structure and coding might not be perfect.
 I'm already working a long time on this project, so I thought I will use GitHub for my work from now on. It makes it a lot easier for me.
 
+## v.1.3.0
+### Notable Changes
+
+* Added multlianguage support using PHP (de, en)
+* Images compressed (image size reduced by ~36MB)
+* Moved 'js' folder into 'style' folder
+* Fixed reCAPTCHA error at feedback form
+
 ## v.1.2.2
 ### Notable Changes
 
