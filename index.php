@@ -1,3 +1,4 @@
+<?php include('locale/locale.php'); ?>
 <html>
 
 <head>
@@ -9,7 +10,6 @@
     <link href="../style/css/footer.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <?php include('locale/locale.php'); ?>
     <?php
 
         if(isset($_GET["section"]))
@@ -24,7 +24,7 @@
 
     ?>
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="js/back_to_top.js"></script>
+        <script src="style/js/back_to_top.js"></script>
         <title>#imastarcitizen</title>
         <script>
             $(document).ready(function () {
