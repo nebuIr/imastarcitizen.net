@@ -23,7 +23,7 @@
         <br>
         <h2>Idris</h2>
         <div class=cards_box>
-            <a class=fancybox href=../images/puzzle/puzzle_full_res/idris/idris.png rel=cardbackpuzzle><img class=shadow-cards height=662 id="idris puzzle" src=../images/puzzle/puzzle_small/idris/idris.png width=931></a>
+            <a class=fancybox href=../images/puzzle/puzzle_full_res/idris/idris.jpg rel=cardbackpuzzle><img class=shadow-cards height=662 id="idris puzzle" src=../images/puzzle/puzzle_small/idris/idris.png width=931></a>
         </div>
         <br>
     </div>
