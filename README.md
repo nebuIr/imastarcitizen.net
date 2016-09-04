@@ -7,6 +7,11 @@ I created this website mostly for testing purposes and for learning HTML, CSS an
 Therfore the structure and coding might not be perfect.
 I'm already working a long time on this project, so I thought I will use GitHub for my work from now on. It makes it a lot easier for me.
 
+## v.1.3.0.1
+### Notable Changes
+
+* Fixed Idris puzzle link
+
 ## v.1.3.0
 ### Notable Changes
 
