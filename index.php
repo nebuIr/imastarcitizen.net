@@ -10,6 +10,7 @@
     <link href="../style/css/footer.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <?php
 
         if(isset($_GET["section"]))
@@ -66,7 +67,8 @@
             <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A//imastarcitizen.net&title=%23ImAStarCitizen&summary=&source=','newwindow','width=650, height=600');return false">
                 <i class="fa fa-linkedin" style="padding-top:7px"></i></a>
             <a href="//www.reddit.com/submit" onclick="window.location='//www.reddit.com/submit?url='+encodeURIComponent(window.location);return false">
-                <i class="fa fa-reddit-square" style="padding-top:7px"></i></a>
+                <i class="fa fa-reddit-square" style="padding-top:7px"></i></a> <br>
+            <?php echo $lang['FOOTER_LOCALE']; ?>
         </div>
         <div class="footer-left">
             <p class="footer-links"><a href="../index.php?section=card_archives"><?php echo $lang['FOOTER_CARD_ARCHIVES']; ?></a> - <a href="../index.php?section=downloads"><?php echo $lang['FOOTER_DOWNLOADS']; ?></a> - <a href="http://robertspaceindustries.com"><?php echo $lang['FOOTER_RSI_HOMEPAGE']; ?></a> - <a href="http://instagram.com/robertsspaceind"><?php echo $lang['FOOTER_RSI_INSTAGRAM']; ?></a></p>
@@ -77,7 +79,8 @@
             <a href="http://referral.imastarcitizen.net"><font size="2"><?php echo $lang['FOOTER_REFERRAL']; ?></font></a>
             <br>
             <br>
-            <?php echo $lang['FOOTER_LOCALE']; ?>
+            <a class="github-button" href="https://github.com/nebuIr" data-count-href="/nebuIr/followers" aria-label="Follow @nebuIr on GitHub">Follow @nebuIr</a> &nbsp;
+            <a href="https://twitter.com/nebul_r" class="twitter-follow-button" data-show-count="false">Follow @nebul_r</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             <br>
         </div>
     </footer>
