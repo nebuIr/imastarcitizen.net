@@ -47,7 +47,7 @@
 .wrapper-dropdown:hover {
     transition: all .2s ease-out;
     background-color: rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
+    box-shadow: 0 0 30px rgba(13, 168, 255, .4);
     border: 1px solid rgba(12, 103, 161, 0.6)
 }
 
