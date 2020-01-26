@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/background/grid.png), url(../images/background/bg_stars.jpg);
+    background-image: url(/images/background/grid.png), url(/images/background/bg_stars.jpg);
     background-repeat: repeat;
     background-attachment: scroll, fixed;
     background-color: grey;
@@ -63,7 +63,6 @@ section h2 {
     text-transform: uppercase;
     font-size: 30px;
     color: #00e7ff;
-    text-transform: uppercase;
     text-shadow: 0 0 0 #00E0FF, 0 0 11px #00A0B6;
 }
 
@@ -150,7 +149,7 @@ img {
 #submit-feedback-button:hover {
     transition: all .2s ease-out;
     background-color: rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
+    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0 0 15px rgba(147, 215, 247, 0.2);
     border: 1px solid rgba(12, 103, 161, 0.6)
 }
 
@@ -159,8 +158,8 @@ img {
     top: 1px
 }
 
-#email {
-    font-family: Orbitron;
+#email, #subject, #message {
+    font-family: Orbitron, sans-serif;
     transition: all .2s ease-in;
     background-color: rgba(22, 104, 159, 0.2);
     border-radius: 4px;
@@ -175,54 +174,10 @@ img {
     margin-top: 7px
 }
 
-#email:focus {
+#email:focus, #subject:focus, #message:focus {
     transition: all .2s ease-out;
-    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
+    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0 0 15px rgba(147, 215, 247, 0.2);
     border-radius: 5px
-}
-
-#subject {
-    font-family: Orbitron;
-    transition: all .2s ease-in;
-    background-color: rgba(22, 104, 159, 0.2);
-    border-radius: 4px;
-    border: 1px solid rgba(12, 103, 161, 0.6);
-    display: inline-block;
-    cursor: text;
-    color: #3fc9e1;
-    font-size: 14px;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-weight: 700;
-    margin-top: 7px
-}
-
-#subject:focus {
-    transition: all .2s ease-out;
-    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
-    border-radius: 5px
-}
-
-#message {
-    font-family: Orbitron;
-    transition: all .2s ease-in;
-    background-color: rgba(22, 104, 159, 0.2);
-    border-radius: 4px;
-    border: 1px solid rgba(12, 103, 161, 0.6);
-    display: inline-block;
-    cursor: text;
-    color: #3fc9e1;
-    font-size: 14px;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-weight: 700;
-    margin-top: 7px
-}
-
-#message:focus {
-    transition: all .2s ease-out;
-    box-shadow: 0 0 15px rgba(147, 215, 247, 0.2), 0px 0 15px rgba(147, 215, 247, 0.2);
-    border-radius: 5p
 }
 
 .shadow-cards {
@@ -283,7 +238,7 @@ img {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: rgba(12, 103, 161, 0.8) url(../images/misc/arrow.svg) no-repeat center 50%;
+    background: rgba(12, 103, 161, 0.8) url(/images/misc/arrow.svg) no-repeat center 50%;
     border-radius: 3px;
     visibility: hidden;
     opacity: 0;
@@ -314,14 +269,14 @@ img {
     opacity: 1
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
     .back_to_top {
         right: 20px;
         bottom: 20px
     }
 }
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width: 1024px) {
     .back_to_top {
         height: 60px;
         width: 60px;
@@ -330,11 +285,12 @@ img {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     #downloads {
         float: left;
         padding: 37px
     }
+
     p {
         line-height: 1.8
     }

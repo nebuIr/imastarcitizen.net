@@ -1,5 +1,5 @@
 .footer-distributed {
-    background: rgba(0, 0, 0, 0.6) url(../../images/background/footer_noise.png) repeat;
+    background: rgba(0, 0, 0, 0.6) url(/images/background/footer_noise.png) repeat;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: rgba(12, 103, 161, 0.8);
@@ -50,7 +50,7 @@
 }
 
 .footer-distributed .footer-right p {
-    font-family: Electrolize,Arial,Helvetica,sans-serif;
+    font-family: Electrolize, Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #fff;
     text-shadow: 0 0 20px #0DA8FF;
@@ -76,16 +76,18 @@
     text-shadow: 0 0 30px #0DA8FF;
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
     .footer-distributed .footer-left,
     .footer-distributed .footer-right {
         margin-bottom: 10px;
         text-align: center
     }
+
     .footer-distributed .footer-right {
         float: none;
         margin: 0 auto 20px
     }
+
     .footer-distributed .footer-left p.footer-links {
         line-height: 1.8
     }

@@ -5,49 +5,42 @@
             <loc>http://imastarcitizen.net/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=home</loc>
+            <loc>http://imastarcitizen.net/home/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=card_archives</loc>
+            <loc>http://imastarcitizen.net/card_archives/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=cardbackpuzzle</loc>
+            <loc>http://imastarcitizen.net/cardbackpuzzle/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=downloads</loc>
+            <loc>http://imastarcitizen.net/downloads/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=card_archive</loc>
+            <loc>http://imastarcitizen.net/card_archive</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=feedback</loc>
+            <loc>http://imastarcitizen.net/feedback/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=ships</loc>
+            <loc>http://imastarcitizen.net/ships/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=companies</loc>
+            <loc>http://imastarcitizen.net/companies/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=systems</loc>
+            <loc>http://imastarcitizen.net/systems/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=developer_team</loc>
+            <loc>http://imastarcitizen.net/developer_team/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=events</loc>
+            <loc>http://imastarcitizen.net/events/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=shows</loc>
+            <loc>http://imastarcitizen.net/shows/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/index.php?section=miscellaneous</loc>
-        </url>
-        <url>
-            <loc>http://imastarcitizen.net/downloads/cards_print/cards_print.pdf</loc>
-            <lastmod>2016-02-04T19:49:22+00:00</lastmod>
-        </url>
-        <url>
-            <loc>http://imastarcitizen.net/index.php?section=all</loc>
+            <loc>http://imastarcitizen.net/miscellaneous/</loc>
         </url>
     </urlset>

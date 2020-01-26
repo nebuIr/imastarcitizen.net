@@ -1,94 +1,75 @@
 <?php
     switch($section)
     {
-        case "home":
-            include ("pages/home.php");
-            break;
-            
-        case "card_archives":
-            include ("pages/card_archives/card_archives.php");
+        case 'home':
+        case '':
+            include __DIR__ . '/../home.php';
             break;
 
-        case "cardbackpuzzle":
-            include ("pages/puzzle.php");
-            break;
-            
-        case "galactic-systems":
-            include ("pages/card_archives/categories/galactic-systems.php");
-            break;
-        
-        case "all":
-            include ("pages/card_archives/card_archives.php");
-            break;
-            
-        case "ships":
-            include ("pages/card_archives/categories/ships.php");
+        case 'all':
+        case 'card_archives':
+            include __DIR__ . '/../card_archives/card_archives.php';
             break;
 
-        case "companies":
-            include ("pages/card_archives/categories/companies.php");
+        case 'cardbackpuzzle':
+            include __DIR__ . '/../puzzle.php';
             break;
 
-        case "systems":
-            include ("pages/card_archives/categories/systems.php");
+        case 'ships':
+            include __DIR__ . '/../card_archives/categories/ships.php';
             break;
 
-        case "developer_team":
-            include ("pages/card_archives/categories/developer_team.php");
+        case 'companies':
+            include __DIR__ . '/../card_archives/categories/companies.php';
             break;
 
-        case "events":
-            include ("pages/card_archives/categories/events.php");
+        case 'systems':
+            include __DIR__ . '/../card_archives/categories/systems.php';
+            break;
+
+        case 'developer_team':
+            include __DIR__ . '/../card_archives/categories/developer_team.php';
+            break;
+
+        case 'events':
+            include __DIR__ . '/../card_archives/categories/events.php';
             break;
             
-        case "shows":
-            include ("pages/card_archives/categories/shows.php");
+        case 'shows':
+            include __DIR__ . '/../card_archives/categories/shows.php';
             break;
             
-        case "miscellaneous":
-            include ("pages/card_archives/categories/miscellaneous.php");
+        case 'miscellaneous':
+            include __DIR__ . '/../card_archives/categories/miscellaneous.php';
             break;
             
-        case "downloads":
-            include ("pages/downloads.php");
+        case 'downloads':
+            include __DIR__ . '/../downloads.php';
             break;
             
-        case "feedback":
-            include ("pages/feedback.php");
+        case 'feedback':
+            include __DIR__ . '/../feedback.php';
             break;
             
-        case "400":
-            include ("pages/errorpages/400.php");
+        case '400':
+            include __DIR__ . '/../errorpages/400.php';
             break;
             
-        case "401":
-            include ("pages/errorpages/401.php");
+        case '401':
+            include __DIR__ . '/../errorpages/401.php';
             break;
             
-        case "403":
-            include ("pages/errorpages/403.php");
+        case '403':
+            include __DIR__ . '/../errorpages/403.php';
             break;
-            
-        case "404":
-            include ("pages/errorpages/404.php");
+
+        case '500':
+            include __DIR__ . '/../errorpages/500.php';
             break;
-            
-        case "500":
-            include ("pages/errorpages/500.php");
-            break;
-            
+
+        case '404':
         default:
-            include ("pages/home.php");
+            include __DIR__ . '/../errorpages/404.php';
             break;
     
     }
-
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<title></title>
-</head>
-<body>
-</body>
-</html>

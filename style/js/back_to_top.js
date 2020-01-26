@@ -1,10 +1,10 @@
 jQuery(document).ready(function (b) {
-    var c = 300,
+    let c = 300,
         e = 1200,
         a = 700,
         d = b(".back_to_top");
     b(window).scroll(function () {
-        (b(this).scrollTop() > c) ? d.addClass("btt-visible"): d.removeClass("btt-visible btt-fade-out");
+        (b(this).scrollTop() > c) ? d.addClass("btt-visible") : d.removeClass("btt-visible btt-fade-out");
         if (b(this).scrollTop() > e) {
             d.addClass("btt-fade-out")
         }
