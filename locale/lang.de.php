@@ -10,14 +10,14 @@ $lang = array();
 
 //HEADER
 
-$lang['HEADER_LOCALE'] = '<a href=\'?lang=en\' id=\'locale\' title=\'English\'><img src=\'/images/misc/en.png\' width=\'30px\'></a>';
+$lang['HEADER_LOCALE'] = '<a href=\'/en/\' id=\'locale\' title=\'English\'><img src=\'/images/misc/en.png\' width=\'30px\'></a>';
 
 ////PAGES
 
 //HOME
 
 $lang['HOME_TITLE'] = '#I\'mAStarCitizen Sammelkarten';
-$lang['HOME_WELCOME'] = 'Hier kannst du alle #I\'mAStarCitizen Sammelkarten anschauen.<br> Auf dem offizellen <a href=http://instagram.com/robertsspaceind>RSI Instagram Account</a> siehst du alle geposteten Karten. Schau dort mal vorbei!<br><br> Ich werde die Sammelkarten aktualisieren, sobald neue hinzugefügt wurden :)';
+$lang['HOME_WELCOME'] = 'Hier kannst du alle #I\'mAStarCitizen Sammelkarten anschauen.<br> Auf dem offizellen <a href=https://instagram.com/robertsspaceind>RSI Instagram Account</a> siehst du alle geposteten Karten. Schau dort mal vorbei!<br><br> Ich werde die Sammelkarten aktualisieren, sobald neue hinzugefügt wurden :)';
 
 //DOWNLOADS
 
@@ -64,4 +64,4 @@ $lang['FOOTER_RSI_INSTAGRAM'] = 'RSI Instagram';
 $lang['FOOTER_BY'] = 'Diese Website wurde von <img src=\'/images/misc/logo.png\' height="16px" width="16px"><b><a href=\'https://nebulr.me\'> nebulr</a></b> erstellt';
 $lang['FOOTER_FEEDBACK'] = ' Bitte <a href=\'/feedback/\'><b>sende</b></a> mir dein <b>Feedback</b> oder <b>Fehler</b>, falls du welche findest';
 $lang['FOOTER_REFERRAL'] = 'Klicke hier um ein Star Citizen zu werden!';
-$lang['FOOTER_LOCALE'] = '<a href=\'?lang=en\' title=\'English\'><img src=\'/images/misc/en.png\' width=\'30px\'></a>';
+$lang['FOOTER_LOCALE'] = '<a href=\'/en/\' title=\'English\'><img src=\'/images/misc/en.png\' width=\'30px\'></a>';

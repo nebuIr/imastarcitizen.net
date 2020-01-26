@@ -4,7 +4,7 @@
 <head>
     <meta content="IE=edge,chrome=1" http-equiv=X-UA-Compatible>
     <link href=/plugins/dropdown/dropdown.css rel=stylesheet type=text/css>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel=stylesheet type=text/css>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel=stylesheet type=text/css>
     <script src=modernizr.custom.79639.js type=text/javascript></script>
     <noscript>
         <link href=/plugins/dropdown/noJS.css rel=stylesheet type=text/css>

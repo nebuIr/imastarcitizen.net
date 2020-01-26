@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>http://imastarcitizen.net/</loc>
+            <loc>https://imastarcitizen.net/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/card_archives/</loc>
+            <loc>https://imastarcitizen.net/home/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/cardbackpuzzle/</loc>
+            <loc>https://imastarcitizen.net/card_archives/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/downloads/</loc>
+            <loc>https://imastarcitizen.net/cardbackpuzzle/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/card_archive</loc>
+            <loc>https://imastarcitizen.net/downloads/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/feedback/</loc>
+            <loc>https://imastarcitizen.net/card_archive</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/ships/</loc>
+            <loc>https://imastarcitizen.net/feedback/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/companies/</loc>
+            <loc>https://imastarcitizen.net/ships/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/systems/</loc>
+            <loc>https://imastarcitizen.net/companies/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/developer_team/</loc>
+            <loc>https://imastarcitizen.net/systems/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/events/</loc>
+            <loc>https://imastarcitizen.net/developer_team/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/shows/</loc>
+            <loc>https://imastarcitizen.net/events/</loc>
         </url>
         <url>
-            <loc>http://imastarcitizen.net/miscellaneous/</loc>
+            <loc>https://imastarcitizen.net/shows/</loc>
+        </url>
+        <url>
+            <loc>https://imastarcitizen.net/miscellaneous/</loc>
         </url>
     </urlset>

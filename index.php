@@ -27,7 +27,7 @@
         }
 
     ?>
-        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script src="/style/js/back_to_top.js"></script>
         <title>#imastarcitizen</title>
         <script>
@@ -38,7 +38,7 @@
                 })
             });
         </script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
         <link href="/plugins/fancybox/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css">
         <script src="/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 </head>
@@ -74,7 +74,7 @@
             <?= $lang['FOOTER_LOCALE'] ?>
         </div>
         <div class="footer-left">
-            <p class="footer-links"><a href="/card_archives/"><?= $lang['FOOTER_CARD_ARCHIVES'] ?></a> - <a href="/downloads/"><?= $lang['FOOTER_DOWNLOADS'] ?></a> - <a href="http://robertspaceindustries.com"><?= $lang['FOOTER_RSI_HOMEPAGE'] ?></a> - <a href="http://instagram.com/robertsspaceind"><?= $lang['FOOTER_RSI_INSTAGRAM'] ?></a></p>
+            <p class="footer-links"><a href="/card_archives/"><?= $lang['FOOTER_CARD_ARCHIVES'] ?></a> - <a href="/downloads/"><?= $lang['FOOTER_DOWNLOADS'] ?></a> - <a href="https://robertspaceindustries.com"><?= $lang['FOOTER_RSI_HOMEPAGE'] ?></a> - <a href="https://instagram.com/robertsspaceind"><?= $lang['FOOTER_RSI_INSTAGRAM'] ?></a></p>
             <p><?= $lang['FOOTER_BY'] ?>
                 <br>
                 <br><?= $lang['FOOTER_FEEDBACK'] ?></p>

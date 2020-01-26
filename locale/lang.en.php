@@ -10,14 +10,14 @@ $lang = array();
 
 //HEADER
 
-$lang['HEADER_LOCALE'] = '<a href=\'?lang=de\' id=\'locale\' title=\'Deutsch\'><img src=\'/images/misc/de.png\' width=\'30px\'></a>';
+$lang['HEADER_LOCALE'] = '<a href=\'/de/\' id=\'locale\' title=\'Deutsch\'><img src=\'/images/misc/de.png\' width=\'30px\'></a>';
 
 ////PAGES
 
 //HOME
 
 $lang['HOME_TITLE'] = '#I\'mAStarCitizen Trading Cards';
-$lang['HOME_WELCOME'] = 'Here you can see all previously posted trading cards.<br> On the official <a href=http://instagram.com/robertsspaceind>RSI Instagram Account</a> are all originally posted cards. Check it out!<br><br> I\'ll update the cards as soon as they are uploaded :)';
+$lang['HOME_WELCOME'] = 'Here you can see all previously posted trading cards.<br> On the official <a href=https://instagram.com/robertsspaceind>RSI Instagram Account</a> are all originally posted cards. Check it out!<br><br> I\'ll update the cards as soon as they are uploaded :)';
 
 //DOWNLOADS
 
@@ -64,5 +64,5 @@ $lang['FOOTER_RSI_INSTAGRAM'] = 'RSI Instagram';
 $lang['FOOTER_BY'] = 'This website was created by <img src=\'/images/misc/logo.png\' height="16px" width="16px"><b><a href=\'https://nebulr.me\'> nebulr</a></b>';
 $lang['FOOTER_FEEDBACK'] = ' Feel free to <a href=\'/feedback/\'><b>send</b></a> any <b>bug reports</b> or <b>feedback</b>';
 $lang['FOOTER_REFERRAL'] = 'Click here to become a Star Citizen today!';
-$lang['FOOTER_LOCALE'] = '<a href=\'?lang=de\' title=\'Deutsch\'><img src=\'/images/misc/de.png\' width=\'30px\'></a>';
+$lang['FOOTER_LOCALE'] = '<a href=\'/de/\' title=\'Deutsch\'><img src=\'/images/misc/de.png\' width=\'30px\'></a>';
 ?>

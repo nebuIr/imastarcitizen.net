@@ -1,6 +1,8 @@
 <?php
     switch($section)
     {
+        case 'de':
+        case 'en':
         case 'home':
         case '':
             include __DIR__ . '/../home.php';
