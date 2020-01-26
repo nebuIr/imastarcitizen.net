@@ -14,6 +14,8 @@ RewriteCond %{REQUEST_URI} !^/shows
 RewriteCond %{REQUEST_URI} !^/miscellaneous
 RewriteCond %{REQUEST_URI} !^/downloads
 RewriteCond %{REQUEST_URI} !^/feedback
+RewriteCond %{REQUEST_URI} !^/en
+RewriteCond %{REQUEST_URI} !^/de
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) - [R=404,L]
