@@ -4,6 +4,7 @@
 <meta name="description" content="#imastarcitizen - All official Star Citizen trading cards">
 <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="https://kit.fontawesome.com/8119fd0658.js" crossorigin="anonymous"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -22,7 +23,6 @@
 
 <link href="/plugins/fancybox/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css">
 <script src="/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="/assets/js/back_to_top.js"></script>
 <script>
     $(document).ready(function () {
