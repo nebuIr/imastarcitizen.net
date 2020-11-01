@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
     }
 
     if ($responseData->success) {
-        $support_mail = 'support@imastarcitizen.net';
+        $support_mail = 'support@nebulr.org';
 
         $htmlContent = "
                 <h1>Contact request details</h1>

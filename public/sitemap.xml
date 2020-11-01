@@ -2,42 +2,42 @@
     <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
             https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>https://imastarcitizen.net/</loc>
+            <loc>https://imastarcitizen.nebulr.org/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/home/</loc>
+            <loc>https://imastarcitizen.nebulr.org/home/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/archive/</loc>
+            <loc>https://imastarcitizen.nebulr.org/archive/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/cardbackpuzzle/</loc>
+            <loc>https://imastarcitizen.nebulr.org/cardbackpuzzle/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/downloads/</loc>
+            <loc>https://imastarcitizen.nebulr.org/downloads/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/feedback/</loc>
+            <loc>https://imastarcitizen.nebulr.org/feedback/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/ships/</loc>
+            <loc>https://imastarcitizen.nebulr.org/ships/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/companies/</loc>
+            <loc>https://imastarcitizen.nebulr.org/companies/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/systems/</loc>
+            <loc>https://imastarcitizen.nebulr.org/systems/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/developer_team/</loc>
+            <loc>https://imastarcitizen.nebulr.org/developer_team/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/events/</loc>
+            <loc>https://imastarcitizen.nebulr.org/events/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/shows/</loc>
+            <loc>https://imastarcitizen.nebulr.org/shows/</loc>
         </url>
         <url>
-            <loc>https://imastarcitizen.net/miscellaneous/</loc>
+            <loc>https://imastarcitizen.nebulr.org/miscellaneous/</loc>
         </url>
     </urlset>

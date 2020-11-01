@@ -1,13 +1,13 @@
 <div class="footer-right">
     <p><?= $locale['FOOTER_SOCIAL'] ?></p>
     <br>
-    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//imastarcitizen.net','newwindow','width=650, height=600');return false">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//imastarcitizen.nebulr.org','newwindow','width=650, height=600');return false">
         <i class="fa fa-facebook" style="padding-top:7px"></i></a>
-    <a href="#" onclick="window.open('https://twitter.com/home?status=%23ImAStarCitizen%0Ahttp%3A//imastarcitizen.net','newwindow','width=440, height=255');return false">
+    <a href="#" onclick="window.open('https://twitter.com/home?status=%23ImAStarCitizen%0Ahttp%3A//imastarcitizen.nebulr.org','newwindow','width=440, height=255');return false">
         <i class="fa fa-twitter" style="padding-top:7px"></i></a>
-    <a href="#" onclick="window.open('https://plus.google.com/share?url=http%3A//imastarcitizen.net','newwindow','width=500, height=500');return false">
+    <a href="#" onclick="window.open('https://plus.google.com/share?url=http%3A//imastarcitizen.nebulr.org','newwindow','width=500, height=500');return false">
         <i class="fa fa-google-plus" style="padding-top:7px"></i></a>
-    <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A//imastarcitizen.net&title=%23ImAStarCitizen&summary=&source=','newwindow','width=650, height=600');return false">
+    <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A//imastarcitizen.nebulr.org&title=%23ImAStarCitizen&summary=&source=','newwindow','width=650, height=600');return false">
         <i class="fa fa-linkedin" style="padding-top:7px"></i></a>
     <a href="//www.reddit.com/submit" onclick="window.location='//www.reddit.com/submit?url='+encodeURIComponent(window.location);return false">
         <i class="fa fa-reddit-square" style="padding-top:7px"></i></a> <br>
